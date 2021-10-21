@@ -13,7 +13,7 @@ Instuctions for getting started with dev containers within Visual Studio Code ca
 # Components Installed
 
 - Python 3 + pip
-- node.js (17.x) + npm
+- node.js (14.x) + npm
 - [py-solc-x](https://pypi.org/project/py-solc-x/)
 - [eth-brownie](https://pypi.org/project/eth-brownie/)
 - [ganache-cli](https://www.npmjs.com/package/ganache-cli)
