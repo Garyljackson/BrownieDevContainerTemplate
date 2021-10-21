@@ -1,0 +1,23 @@
+# See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.202.5/containers/ubuntu/.devcontainer/base.Dockerfile
+
+# [Choice] Ubuntu version (use hirsuite or bionic on local arm64/Apple Silicon): hirsute, focal, bionic
+ARG VARIANT="hirsute"
+FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
+
+# Update all Ubuntu Packages
+RUN apt update && apt upgrade -y
+
+# Install Python package manager
+RUN apt install -y python3-pip
+
+# Install nodejs
+RUN apt install -y nodejs npm
+
+# Install the python solidity compiler
+RUN pip install py-solc-x
+
+# Install Brownie toolkit
+RUN pip install eth-brownie
+
+# Install Ganache
+RUN npm install -g ganache-cli
