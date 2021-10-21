@@ -2,7 +2,7 @@
 
 This is a Visual Studio Code remote dev container template for doing blockchain development with Python and Brownie
 
-## Note about first run
+## Note about the first run
 
 On the very first run the container needs to be built - This can take a while. The next run will be much faster.
 
