@@ -10,14 +10,19 @@ RUN apt update && apt upgrade -y
 # Install Python package manager
 RUN apt install -y python3-pip
 
-# Install nodejs
-RUN apt install -y nodejs npm
-
 # Install the python solidity compiler
 RUN pip install py-solc-x
 
 # Install Brownie toolkit
 RUN pip install eth-brownie
 
+# Install curl
+RUN apt install curl
+
+# Install node.js
+RUN curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+RUN apt install -y nodejs
+
 # Install Ganache
 RUN npm install -g ganache-cli
+
