@@ -1,3 +1,11 @@
+# Overview
+
+This is a Visual Studio Code remote dev container template for doing blockchain development with Python and Brownie
+
+# How to use
+
+Instuctions for getting started with dev containers within Visual Studio Code can be [found here](https://code.visualstudio.com/docs/remote/containers)
+
 # Base Container
 
 - [Ubuntu](https://github.com/microsoft/vscode-dev-containers/blob/v0.202.5/containers/ubuntu/.devcontainer/base.Dockerfile)
