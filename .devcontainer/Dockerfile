@@ -16,6 +16,9 @@ RUN pip install py-solc-x
 # Install Brownie toolkit
 RUN pip install eth-brownie
 
+# Install pytest
+RUN pip install pytest
+
 # Install curl
 RUN apt install curl
 
