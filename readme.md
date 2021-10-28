@@ -34,3 +34,6 @@ Instuctions for getting started with dev containers within Visual Studio Code ca
 ```
 brownie init -f
 ```
+
+# Blog Post
+- [Garyjackson.dev](https://www.garyjackson.dev/posts/blockchain-development-vscode-dev-containers/)
